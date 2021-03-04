@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.awesome-item-img {
+.awesome-item__img {
   width: 70px;
   height: 70px;
   border: 1px solid #d98943;
@@ -38,13 +38,13 @@
   padding-top: 20px;
 }
 
-.awesome-item-title {
+.awesome-item__title {
   font-size: 20px;
   font-weight: bold;
   color: #333;
   margin-bottom: 16px;
 }
 
-.awesome-item-desc {
+.awesome-item__desc {
   width: 350px;
 }
