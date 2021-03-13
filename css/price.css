@@ -1,0 +1,76 @@
+.price {
+  width: 100%;
+  padding: 80px 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  background-color: #e5e5e5;
+}
+
+.price-title {
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+
+.price-line {
+  width: 64px;
+  border-bottom: 2px solid #e72424;
+  margin: 0 auto 34px;
+}
+
+.price-desc {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.price-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.price-option {
+  width: 340px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+.price-list__header {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.price-list__header.best {
+  background-color: #d98943;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 800;
+}
+
+.price-list__name {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0 8px;
+  margin-bottom: 1px;
+}
+
+.price-list__cost {
+  font-family: "Raleway";
+  font-size: 35px;
+  font-weight: 700;
+  padding: 26px 0 30px;
+  margin-bottom: 2px;
+}
+
+.price-list__period {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 17px 0 14px;
+  margin-bottom: 4px;
+}
+
+.price-list__item {
+  background-color: #ffffff;
+  color: #86878b;
+  padding: 10px 0 11px;
+  margin-bottom: 4px;
+}

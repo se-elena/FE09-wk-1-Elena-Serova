@@ -1,0 +1,58 @@
+.awesome {
+  width: 100%;
+  padding: 100px 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.awesome-title {
+  margin-bottom: 27px;
+}
+
+.awesome-line {
+  width: 64px;
+  border-bottom: 2px solid #d98943;
+  margin: 0 auto 30px;
+}
+
+.awesome-desc {
+  text-align: center;
+  margin-bottom: 67px;
+}
+
+.awesome-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 -15px;
+}
+
+.awesome-item {
+  text-align: center;
+  margin: 0 15px;
+}
+
+. .img-lightbulb {
+  display: block;
+  margin: 17px auto;
+}
+
+.img-keyboard {
+  display: block;
+  margin: 19px auto;
+}
+
+.img-lightning {
+  display: block;
+  margin: 18px auto;
+}
+
+.awesome-item__title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.awesome-item__desc {
+  width: 350px;
+}
