@@ -6,17 +6,6 @@
   background-color: #e5e5e5;
 }
 
-.price-title {
-  margin-bottom: 34px;
-  text-transform: uppercase;
-}
-
-.price-line {
-  width: 64px;
-  border-bottom: 2px solid #e72424;
-  margin: 0 auto 34px;
-}
-
 .price-desc {
   text-align: center;
   margin-bottom: 62px;

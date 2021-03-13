@@ -1,18 +1,8 @@
 .awesome {
   width: 100%;
-  padding: 100px 0;
+  padding: 80px 0;
   font-family: "Open Sans";
   font-size: 14px;
-}
-
-.awesome-title {
-  margin-bottom: 27px;
-}
-
-.awesome-line {
-  width: 64px;
-  border-bottom: 2px solid #d98943;
-  margin: 0 auto 30px;
 }
 
 .awesome-desc {
