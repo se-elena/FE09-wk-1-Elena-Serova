@@ -5,6 +5,14 @@
   font-size: 14px;
 }
 
+.customers-title {
+  color: #000;
+}
+
+.customers-title::after {
+  background-color: #d98943;
+}
+
 .customers-desc {
   text-align: center;
   margin-bottom: 67px;
@@ -18,11 +26,14 @@
 }
 
 .customers-item {
+  display: flex;
+  flex-direction: column;
   width: 298px;
   margin: 0 15px;
 }
 
 .customers-item__comment {
+  flex-grow: 1;
   position: relative;
   text-align: center;
   background-color: #e2e2e2;
@@ -37,7 +48,7 @@
   display: block;
   width: 20px;
   height: 12px;
-  top: 100%;
+  top: 98%;
   left: 40px;
   shape-outside: polygon(0 0, 50% 100%, 100% 0%);
   clip-path: polygon(0 0, 50% 100%, 100% 0%);

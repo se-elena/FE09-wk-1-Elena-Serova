@@ -6,6 +6,14 @@
   background-color: #e5e5e5;
 }
 
+.price-title {
+  color: #000;
+}
+
+.price-title::after {
+  background-color: #d98943;
+}
+
 .price-desc {
   text-align: center;
   margin-bottom: 62px;
@@ -62,4 +70,10 @@
   color: #86878b;
   padding: 10px 0 11px;
   margin-bottom: 4px;
+  transition: 0.3s;
+}
+
+.price-list__item:hover {
+  background-color: #86878b;
+  color: #fff;
 }
