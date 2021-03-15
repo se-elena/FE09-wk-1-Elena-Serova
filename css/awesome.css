@@ -29,19 +29,34 @@
   margin: 0 15px;
 }
 
+.awesome-item__img {
+  margin: 0 auto 30px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awesome-item__img:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .img-lightbulb {
-  display: block;
-  margin: 17px auto;
+  font-size: 34px;
+  color: #d98943;
 }
 
 .img-keyboard {
-  display: block;
-  margin: 19px auto;
+  font-size: 34px;
+  color: #d98943;
 }
 
 .img-lightning {
-  display: block;
-  margin: 18px auto;
+  font-size: 34px;
+  color: #d98943;
 }
 
 .awesome-item__title {

@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  background-color: #000;
+  padding: 10px 15px;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrap__logo {
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 48px;
+  color: #fff;
+}
+
+.header-wrap__logo::after {
+  content: "IT";
+  color: #ec7979;
+}
+
+.header-wrap__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 48px;
+}
+
+.nav-item__text {
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-item__text:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+}

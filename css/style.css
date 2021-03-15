@@ -2,6 +2,9 @@
 @import url("/css/price.css");
 @import url("/css/customers.css");
 @import url("/css/axure.css");
+@import url("/css/header.css");
+@import url("/css/social.css");
+@import url("/css/footer.css");
 
 * {
   margin: 0;

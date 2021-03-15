@@ -4,15 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <title>Document</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-wrap__logo">AX</div>
+          <nav>
+            <ul class="header-wrap__nav">
+              <li class="nav-item"><a class="nav-item__text" href="#">Features</a></li>
+              <li class="nav-item"><a class="nav-item__text" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-item__text" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-item__text" href="#">Reviews</a></li>
+              <li class="nav-item"><a class="nav-item__text" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="social">
+      <div class="container">
+        <div class="social-row">
+          <div class="social-row__info">
+            <p class="social-row__info-title">Social Media</p>
+            <p class="social-row__info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in nobis earum!</p>
+          </div>
+          <div class="social-row__items">
+            <ul class="items-list">
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fab fa-stumbleupon"></i></a></li>
+              <li class="items-li"><a class="items-li-icon" href="#"><i class="fas fa-rss"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section class="awesome">
       <div class="container">
         <h2 class="title awesome-title">why this is awesome</h2>
@@ -21,12 +61,8 @@
         </div>
         <div class="awesome-row">
           <div class="awesome-item">
-            <div class="awesome-item__img">
-              <img
-                class="img-lightbulb"
-                src="/img/lightbulb_image.png"
-                alt="lightbulb"
-              />
+            <div class="awesome-item__img img-lightbulb">
+              <i class="far fa-lightbulb"></i>
             </div>
             <div class="awesome-item__title">Thoughtful Design</div>
             <div class="awesome-item__desc">
@@ -38,12 +74,8 @@
             </div>
           </div>
           <div class="awesome-item">
-            <div class="awesome-item__img">
-              <img
-                class="img-keyboard"
-                src="/img/keyboard_image.png"
-                alt="lightbulb"
-              />
+            <div class="awesome-item__img img-keyboard">
+              <i class="far fa-keyboard"></i>
             </div>
             <div class="awesome-item__title">Well Crafted</div>
             <div class="awesome-item__desc">
@@ -55,12 +87,8 @@
             </div>
           </div>
           <div class="awesome-item">
-            <div class="awesome-item__img">
-              <img
-                class="img-lightning"
-                src="/img/lightning_image.png"
-                alt="lightbulb"
-              />
+            <div class="awesome-item__img img-lightning">
+              <i class="fas fa-bolt"></i>
             </div>
             <div class="awesome-item__title">Easy to Customize</div>
             <div class="awesome-item__desc">
@@ -189,6 +217,7 @@
         </div>
       </div>
     </section>
+    <section>
     <div class="axure axure-bg">
       <div class="container">
         <h2 class="title axure-title">stylish axure design</h2>
@@ -201,5 +230,23 @@
       </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-icons">
+          <ul class="footer-icons-list">
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-pinterest"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fab fa-stumbleupon"></i></a></li>
+            <li class="footer-li"><a class="footer-li-icon" href="#"><i class="fas fa-rss"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <p>@ 2015 Axure themes</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
