@@ -1,0 +1,143 @@
+.banner {
+  width: 100%;
+  padding: 108px 0 100px;
+  font-family: "Open Sans";
+}
+
+.banner-bg {
+  width: 100%;
+  position: relative;
+  background-image: url("/img/background_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-bg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__description {
+  max-width: 544px;
+  margin-right: 20px;
+}
+
+.banner__logo {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.banner__logo::after {
+  content: "IT";
+  color: #ec7979;
+}
+
+.banner__title-text {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.banner__title::after {
+  background-color: #fff;
+  margin: 34px 0;
+}
+
+.banner__desc {
+  margin-bottom: 40px;
+}
+
+.banner__desc-text {
+  width: 300px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.banner__download {
+  width: 135px;
+  margin: 0;
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+  transition: 0.3s;
+}
+
+.banner__download-text {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner__download:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.banner-form {
+  max-width: 370px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-form__container {
+  padding: 10px 55px 30px;
+}
+
+.banner-form__title {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 44px;
+}
+
+.banner-form__title-span {
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+.banner-form__item {
+  margin-bottom: 22px;
+}
+.banner-form__label {
+  display: block;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.banner-form__input {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.banner-form__button {
+  display: block;
+  width: 100%;
+  background-color: #ec7979;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 0 0 8px 8px;
+}

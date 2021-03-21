@@ -1,0 +1,75 @@
+.contacts {
+  width: 100%;
+  padding: 80px 0;
+  font-family: "Open Sans";
+}
+
+.contacts-title {
+  color: #000;
+  text-align: center;
+}
+
+.contacts-title::after {
+  background-color: #d98943;
+  margin: 34px auto;
+}
+
+.contacts-desc {
+  text-align: center;
+  margin-bottom: 67px;
+}
+
+
+.contacts-form__container {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0 -15px 30px;
+}
+
+.contacts-form__inputs {
+  width: 478px;
+  margin: 0 15px;
+}
+
+.contacts-form__message {
+  width: 478px;
+  margin: 0 15px;
+}
+
+.contacts-form__item {
+  margin-bottom: 25px;
+}
+.contacts-form__label {
+  display: block;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.contacts-form__input {
+  width: 100%;
+  display: block;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.contacts-form__textarea {
+  width: 100%;
+  height: 187px;
+  resize: none;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.contacts-form__button {
+  display: block;
+  margin: 0 auto;
+  background-color: #ec7979;
+  color: #fff;
+  font-size: 15px;
+  padding: 6px 25px;
+  border: none;
+}

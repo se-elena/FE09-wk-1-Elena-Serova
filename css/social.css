@@ -19,18 +19,25 @@
   color: #333;
 }
 .social-row__info-text {
-  width: 365px;
+  max-width: 365px;
   color: #86878b;
 }
 
 .items-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+}
+
+.items-li {
+  margin-left: 40px;
 }
 
 .items-li-icon {
   color: #cccccc;
   font-size: 42px;
-  margin-left: 50px;
+}
+
+.items-li-icon:hover {
+  color: #d98943;
 }

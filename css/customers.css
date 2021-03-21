@@ -7,10 +7,12 @@
 
 .customers-title {
   color: #000;
+  text-align: center;
 }
 
 .customers-title::after {
   background-color: #d98943;
+  margin: 34px auto;
 }
 
 .customers-desc {
@@ -22,7 +24,6 @@
   display: flex;
   justify-content: space-around;
   margin: 0 -15px;
-  padding: 0 15px;
 }
 
 .customers-item {
@@ -55,30 +56,27 @@
   background: #e2e2e2;
 }
 
-.info-photo {
-  width: 70px;
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50%;
-}
-
-.info-photo__customer1 {
-  background-image: url("/img/snow.jpg");
-}
-.info-photo__customer2 {
-  background-image: url("/img/homer.jpg");
-}
-.info-photo__customer3 {
-  background-image: url("/img/holmes.jpg");
-}
-
 .customers-item__info {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 8px;
 }
+
+.info-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-photo__img {
+  width: 130%;
+}
+
 .info-data {
   text-align: right;
 }

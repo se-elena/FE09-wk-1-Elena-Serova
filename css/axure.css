@@ -26,10 +26,12 @@
 
 .axure-title {
   color: #fff;
+  text-align: center;
 }
 
 .axure-title::after {
   background-color: #fff;
+  margin: 34px auto;
 }
 
 .axure-desc {
