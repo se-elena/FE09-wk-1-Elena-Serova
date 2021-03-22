@@ -1,8 +1,8 @@
 .price {
   width: 100%;
-  padding: 80px 0;
+  padding: 5rem 0;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #e5e5e5;
 }
 
@@ -13,25 +13,25 @@
 
 .price-title::after {
   background-color: #d98943;
-  margin: 34px auto;
+  margin: 2.125rem auto;
 }
 
 .price-desc {
   text-align: center;
-  margin-bottom: 62px;
+  margin-bottom: 3.875rem;
 }
 
 .price-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -15px;
+  margin: 0 -0.938rem;
 }
 
 .price-option {
-  width: 340px;
+  width: 21.25rem;
   text-align: center;
-  margin: 0 15px;
+  margin: 0 0.938rem 2.5rem;
   transition: 0.3s;
 }
 
@@ -50,31 +50,31 @@
 }
 
 .price-list__name {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  padding: 15px 0 8px;
+  padding: 0.938rem 0 0.5rem;
   margin-bottom: 1px;
 }
 
 .price-list__cost {
   font-family: "Raleway";
-  font-size: 35px;
+  font-size: 2.188rem;
   font-weight: 700;
-  padding: 26px 0 30px;
+  padding: 1.625rem 0 1.875rem;
   margin-bottom: 2px;
 }
 
 .price-list__period {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
-  padding: 17px 0 14px;
+  padding: 1.063rem 0 0.875rem;
   margin-bottom: 4px;
 }
 
 .price-list__item {
   background-color: #ffffff;
   color: #86878b;
-  padding: 10px 0 11px;
+  padding: 0.625rem 0 0.688rem;
   margin-bottom: 4px;
   transition: 0.3s;
 }

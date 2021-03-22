@@ -1,8 +1,8 @@
 .axure {
   width: 100%;
-  padding: 80px 0;
+  padding: 5rem 0;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .axure-bg {
@@ -36,20 +36,20 @@
 
 .axure-desc {
   text-align: center;
-  margin-bottom: 67px;
-  font-size: 16px;
+  margin-bottom: 4.188rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.8);
 }
 .axure-download {
-  width: 135px;
+  width: 8.438rem;
   margin: 0 auto;
   border: 1px solid #ffffff;
-  padding: 11px 26px;
+  padding: 0.688rem 1.625rem;
   transition: 0.3s;
 }
 
 .axure-download__text {
-  font-size: 15px;
+  font-size: 0.938rem;
   color: #fff;
   text-decoration: none;
 }

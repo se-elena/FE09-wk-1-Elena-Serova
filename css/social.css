@@ -1,8 +1,8 @@
 .social {
   width: 100%;
-  padding: 14px 0 17px;
+  padding: 0.875rem 0 1.0625rem;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #f8efef;
 }
 
@@ -13,13 +13,13 @@
 }
 
 .social-row__info-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
   color: #333;
 }
 .social-row__info-text {
-  max-width: 365px;
+  max-width: 22.8125rem;
   color: #86878b;
 }
 
@@ -30,12 +30,16 @@
 }
 
 .items-li {
-  margin-left: 40px;
+  margin-left: 2.5rem;
+}
+
+.items-li:first-child {
+  margin-left: 0;
 }
 
 .items-li-icon {
   color: #cccccc;
-  font-size: 42px;
+  font-size: 2.625rem;
 }
 
 .items-li-icon:hover {

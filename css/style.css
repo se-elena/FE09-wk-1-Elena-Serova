@@ -9,7 +9,6 @@
 @import url("/css/contacts.css");
 @import url("/css/tabs.css");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +19,7 @@
 }
 
 p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #86878b;
 }
 
@@ -28,14 +27,16 @@ p {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 
 .title {
   font-family: "Raleway", sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   text-transform: uppercase;
-  line-height: 42px;
+  line-height: 2.625rem;
 }
 
 .title::after {
@@ -45,7 +46,77 @@ p {
   display: block;
 }
 
-.container {
-  position: relative;
-  z-index: 1;
+@media (max-width: 1200px){
+
 }
+
+@media (max-width: 992px){
+  .price-row {
+    justify-content: space-around;
+  }
+  .contacts-form__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px){
+  html {
+    font-size: 13px;
+  }
+  .social-row {
+    display: block;
+  }
+  .social-row__info{
+    text-align: center;
+  }
+  .social-row__info-text {
+    margin: 0 auto 1rem;
+  }
+  .items-li {
+    margin-left: 1rem;
+  }
+
+}
+
+@media (max-width: 530px){
+  html {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .header-wrap__nav{
+    display: none;
+  }
+  .banner-content {
+    display: block;
+    text-align: center;
+  }
+  .banner__description {
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+  .banner__title::after {
+    margin: 2.125rem auto;
+  }
+  .banner__desc-text {
+    margin: 0 auto;
+  }
+  .banner__download {
+    margin: 0 auto 2rem;
+  }
+  .banner-form {
+    margin: 0 auto;
+  }
+  .tabs-row-right {
+    display: none;
+  }
+  .customers-item {
+    margin-bottom: 3rem;
+  }
+}
+
