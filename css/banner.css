@@ -87,7 +87,7 @@
 }
 
 .banner-form {
-  width: 23.125rem;
+  max-width: 23.125rem;
   background-color: #fff;
   border-radius: 8px;
   display: flex;

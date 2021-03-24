@@ -30,6 +30,7 @@
 .awesome-item {
   text-align: center;
   margin: 0 0.938rem 2.5rem;
+  max-width: 21.875rem;
 }
 
 .awesome-item__img {
@@ -59,8 +60,4 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 1rem;
-}
-
-.awesome-item__desc {
-  width: 21.875rem;
 }

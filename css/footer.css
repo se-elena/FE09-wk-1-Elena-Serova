@@ -5,7 +5,7 @@
 }
 
 .footer-icons-list {
-  width: 20rem;
+  max-width: 20rem;
   margin: 0 auto 0.938rem;
   display: flex;
   justify-content: space-between;
